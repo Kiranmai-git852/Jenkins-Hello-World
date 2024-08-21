@@ -19,8 +19,8 @@ pipeline {
                  $class: 'GitSCM',
                  branches: [[name: 'master']],
                  userRemoteConfigs: [[
-                    url: 'https://www.github.com/kiranmai-git852/Jenkins-Hello',
-                    credentialsId: '',
+                    url: 'https://www.github.com/kiranmai-git852/Jenkins-Hello-World.git',
+                    credentialsId: 'Github',
                  ]]
                 ])
             }
